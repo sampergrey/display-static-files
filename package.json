@@ -11,5 +11,11 @@
     "url": " https://git.heroku.com/evening-island-57365.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "^6.5.0"
+  }
 }
