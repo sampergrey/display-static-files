@@ -3,7 +3,7 @@ var fs = require('fs');
 var path = require('path');
 var express = require('express');
 
-http.createServer(funciton(req, res) {
+http.createServer(function(req, res) {
 
   console.log(req.method, req.url);
 
