@@ -7,10 +7,23 @@ http.createServer(function(req, res) {
 
   console.log(req.method, req.url);
 
+  var contentType = 'text/html';
+  switch (extname) {
+    case '.js':
+      contentType = 'text/javascript';
+      break;
+    case '.css':
+      contentType = 'text/css';
+      break;
+    default:
+      contentType = 'text/html';
+      break;
+  }
+
   if (req.url === '/') {
-    fs.readFile('index.html', 'UTF-8', function (err, html) {
-      res.writeHead(200, {'Content-Type': 'text/html'});
-      res.end(html);
+    fs.readFile('index.html', 'UTF-8', function (err, content) {
+      res.writeHead(200, { 'Content-Type': contentType });
+      res.end(content, 'utf-8');
     })
 
   } else {
