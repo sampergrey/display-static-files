@@ -1,0 +1,21 @@
+{
+  "team": [{
+    "name" : "Sarah",
+    "shortname" : "Sarah_G",
+    "title" : "Professor of arts",
+    "description" : "Did lots of drawings. Is a big fan of drawings. Knows a lot about drawings.",
+    "image" : "Sarah.jpg"
+    },{
+    "name" : "Lawrence",
+    "shortname" : "Lawrence_G",
+    "title" : "Professor of math",
+    "description" : "Did lots of math. Is a big fan of math. Knows a lot about math.",
+    "image" : "Lawrence.jpg"
+      },{
+    "name" : "Stalin",
+    "shortname" : "Stalin_G",
+    "title" : "Professor of political science",
+    "description" : "Did lots of politicking. Is a big fan of politicking. Knows a lot about politicking.",
+    "image" : "Stalin.jpg"
+        }]
+}
